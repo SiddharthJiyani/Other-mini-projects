@@ -1,0 +1,38 @@
+.newFeatureCard{
+    box-shadow: 2px 4px 9px 1px hsla(0, 0%, 0%, 0.05);
+}
+
+
+.featureCard:hover .featureCardBox {
+    background-image: url('./images/features-wave.svg');
+    background-repeat: no-repeat;
+    background-position: bottom 1rem right;
+    box-shadow: 0px 2px 24px rgb(0 0 0 / 40%);
+  }
+  
+  .featureCard2:hover .featureCardBox {
+    background-image: url('./images/features2-wave.svg');
+    background-repeat: no-repeat;
+    background-position: bottom 1rem right;
+
+  }
+
+.corefeaturesection{
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    background-size: 100% 100%;
+}
+
+.scroll-image {
+    animation: 20s infinite linear scroll;
+}
+
+@keyframes scroll {
+    0% {
+        top: 0%;
+    }
+
+    100% {
+        top: -150%;
+    }
+}
